@@ -1,0 +1,75 @@
+/* Global styles for the application */
+
+/* Fix for Ace Editor gutter */
+.ace_gutter {
+  z-index: 0 !important;
+}
+
+/* Styling for the code editor container */
+#codeEditor {
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  height: 500px;
+  width: 100%;
+  font-family: monospace;
+}
+
+/* Styling for the generated question */
+#generatedQuestion {
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  border-left: 4px solid #0d6efd;
+}
+
+/* Styling for the evaluation result */
+#evaluationResult {
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  border-left: 4px solid #198754;
+}
+
+/* Add some space at the bottom of the page */
+.container {
+  margin-bottom: 60px;
+}
+
+/* Custom styling for code blocks in the question and evaluation */
+pre {
+  background-color: #282c34;
+  color: #abb2bf;
+  padding: 15px;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Custom styling for links */
+a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Custom styling for buttons */
+.btn-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btn-success {
+  background-color: #198754;
+  border-color: #198754;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+} 
